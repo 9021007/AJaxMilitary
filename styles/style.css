@@ -1,0 +1,68 @@
+html, body {
+    margin:0px;
+    height:100%;
+  }
+
+h1 {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 6vh;
+}
+
+h2 {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 7vh;
+}
+
+h3 {
+
+}
+
+p {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 4vh;
+}
+
+a {
+
+}
+
+.one {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../img/img-1.jpeg);
+    color:white;
+}
+
+.two {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../img/img-2.jpeg);
+    color:white;
+}
+
+.three {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../img/img-3.jpeg);
+    color:white;
+}
+
+.four {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../img/img-4.jpeg);
+    color:white;
+}
+
+
+.item {
+    margin:0px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size:cover;
+    background-position: 50%;
+}
+
+td {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+}
+
+
