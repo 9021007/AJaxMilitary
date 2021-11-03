@@ -13,7 +13,8 @@ typewriter
     .pauseFor(300)
     .typeString('A powerful and advanced military clan')
     .pauseFor(300)
-    .deleteChars(13)
+    .deleteChars(4)
+    .pauseFor(350)
     .typeString('community.')
     .pauseFor(1000)
     .start();
