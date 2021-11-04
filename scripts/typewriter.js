@@ -5,6 +5,8 @@ var typewriter = new Typewriter(app, {
   delay: 65,
 });
 
+AOS.init();
+
 typewriter
     .pauseFor(250)
     .typeString('Welcome to AJax Military.')
